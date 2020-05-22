@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: ashhellwig-python
+Version: 0.1.0
+Summary: 
+        Flask + GraphQL API server implementation of Ash Hellwig's personal
+        website.
+        
+Home-page: https://github.com/ashellwig/ashhellwig-python
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: # ashhellwig-python
+        
+        `ashhellwig-python` is a flask implementation of a GraphQL API server for Ash Hellwig's personal website.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Typing :: Typed

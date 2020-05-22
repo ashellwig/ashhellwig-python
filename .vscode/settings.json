@@ -33,4 +33,6 @@
     /// Formatting
     "python.formatting.provider": "yapf",
     "python.formatting.yapfPath": "/home/ahellwig/anaconda3/envs/ashhellwig-python/bin/yapf",
+    /* Editor */
+    "cSpell.enabled": false
 }

@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+ashhellwig-python/__init__.py
+ashhellwig-python/db.py
+ashhellwig-python/definitions.py
+ashhellwig-python/experience.py
+ashhellwig-python/version.py
+ashhellwig_python.egg-info/PKG-INFO
+ashhellwig_python.egg-info/SOURCES.txt
+ashhellwig_python.egg-info/dependency_links.txt
+ashhellwig_python.egg-info/not-zip-safe
+ashhellwig_python.egg-info/top_level.txt
