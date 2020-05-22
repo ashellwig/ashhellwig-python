@@ -1,0 +1,43 @@
+{% set data = load_setup_py_data() %}
+
+package:
+  name: ashhellwig-python
+  version: {{ data['version'] }}
+
+source:
+  path: ../
+
+extra:
+  channels:
+    - defaults
+    - conda-forge
+
+build:
+  number: 1
+  noarch: python
+
+requirements:
+  host:
+    - pip
+    - python
+  build:
+  run:
+    - python
+    {% for dep in data['install_requires'] %}
+    - {{ dep.lower() }}
+    {% endfor %}
+
+test:
+  imports:
+  requires:
+    -pytest=5.4.1
+    -tox=3.15.0
+
+about:
+  home: https://github.com/ashellwig/ashhellwig-python
+  license_file: LICENSE
+  summary: >-
+    Python Flask + GraphQL implementation of the API for Ash Hellwig's personal
+    website.
+  description: {{ data['long_description'] }}
+  dev_url: {{ data['url'] }}

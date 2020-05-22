@@ -14,5 +14,23 @@
         ]
     },
     "python.condaPath": "/home/ahellwig/anaconda3/bin/conda",
-    "python.jediPath": ""
+    "python.pythonPath": "/home/ahellwig/anaconda3/envs/ashhellwig-python/bin/python",
+    /// Autocomplete
+    "python.jediEnabled": false,
+    "python.jediPath": "/home/ahellwig/anaconda3/envs/ashhellwig-python/lib/python3.8/site-packages/jedi",
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/ashhellwig-python",
+        "${workspaceFolder}/ashhellwig-python/ashhellwig-python",
+        "${workspaceFolder}/ashhellwig-python/ashhellwig-admin"
+    ],
+    /// Linting
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Path": "/home/ahellwig/anaconda3/envs/ashhellwig-python/bin/flake8",
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": "/home/ahellwig/anaconda3/envs/ashhellwig-python/bin/mypy",
+    "python.linting.lintOnSave": true,
+    /// Formatting
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfPath": "/home/ahellwig/anaconda3/envs/ashhellwig-python/bin/yapf",
 }
