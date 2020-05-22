@@ -1,0 +1,10 @@
+# Ash Hellwig's Personal Website
+# API and GraphQL implementation written using Python 3.8 and Flask.
+
+# Environment Configurations
+.env
+.env.local
+.env.development
+.env.production
+!.env.example
+
